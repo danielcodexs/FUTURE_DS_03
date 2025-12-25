@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import {
-  City,
+  Building2, // Instead of City
   Map,
   Briefcase,
   Info,
@@ -27,12 +27,12 @@ const MenuSystem = ({
     {
       id: "cities",
       title: "Ciudades",
-      icon: City,
+      icon: Building2,
       onClick: () => onSelectOption({
         id: uuidv4(),
         type: "city",
         title: "Gestión de Ciudades",
-        icon: City,
+        icon: Building2,
         minimized: false
       })
     },
